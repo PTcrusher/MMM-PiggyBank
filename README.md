@@ -2,7 +2,7 @@
 
 This module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/) is aimed to give you the extra push to save money, presenting your savings in a progress bar within MM.
 
-![In a single picture](https://github.com/PTcrusher/MMM-PiggyBank/blob/screenshots/MMM-PiggyBank.png)
+![Sample picture](https://github.com/PTcrusher/MMM-PiggyBank/blob/master/blob/screenshots/MMM-PiggyBank.png)
 
 ## Installation
 
