@@ -2,7 +2,7 @@
 
 This module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/) is aimed to give you the extra push to save money, presenting your savings in a progress bar within MM.
 
-![In a single picture](https://github.com/PTcrusher/MMM-PiggyBank/blob/master/screenshots/MMM-PiggyBank.png)
+![In a single picture](https://github.com/PTcrusher/MMM-PiggyBank/blob/screenshots/MMM-PiggyBank.png)
 
 ## Installation
 
@@ -33,7 +33,7 @@ var config = {
 | Option           | Description
 |----------------- |-----------
 | `updateInterval` | Time between each update in ms<br>**Default value:** `60000`
-| `symbol`         | Symbol to put on the left of the progress bar <br><br>**Type:** `string`<br>**Default** `home`<br>**Possible Values:** See [Font Awesome](http://fontawesome.io/cheatsheet/) cheatsheet for a list of possible values
+| `symbol`         | Symbol to put on the left of the progress bar <br><br>**Type:** `string`<br>**Default value:** `home`<br>**Possible Values:** See [Font Awesome](http://fontawesome.io/cheatsheet/) cheatsheet for a list of possible values
 
 ## Extra routes
 
@@ -53,6 +53,7 @@ var config = {
 ```
 
 **Allowed methods**
+
 | HTTP Request Method | Route            | Params           | Description      | 
 |-------------------- |----------------- |----------------- |----------------- |
 | POST                | CASH_IN          | **current** <br>amount of money we were able to save<br>**target** <br>amount that we're willing to save | Function used to update the amount of money saved |
