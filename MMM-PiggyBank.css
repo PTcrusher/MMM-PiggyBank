@@ -1,0 +1,39 @@
+/*
+ *
+ * MMM-PiggyBank
+ *
+ * MIT Licensed.
+ *
+ */
+ #flexcontainer{
+    display: flex;
+    flex-direction: row;
+  }
+  #symbol{
+    line-height: 1.5;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #title {
+    display:block;
+  }
+  
+  .w3-light-grey {
+          color: #000;
+          background-color: #f1f1f1;
+          width: 600px;
+  }
+  
+  .w3-green {
+          color: #fff;
+          background-color: #4CAF50;
+  }
+  
+  .w3-container {
+          padding: 0.01em 16px;
+  }
+  
+  .w3-center  {
+          text-align: center;
+  }
+  

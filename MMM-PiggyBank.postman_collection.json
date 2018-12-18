@@ -1,0 +1,62 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MMM-PiggyBank",
+		"_postman_id": "005b92d3-f7bf-55e5-afcf-152ec5af7218",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CASH_IN",
+			"request": {
+				"url": {
+					"raw": "http://192.168.17.135:8080/MMM-PiggyBank/CASH_IN?current=10.00&target=20.00",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"17",
+						"135"
+					],
+					"port": "8080",
+					"path": [
+						"MMM-PiggyBank",
+						"CASH_IN"
+					],
+					"query": [
+						{
+							"key": "current",
+							"value": "10.00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "target",
+							"value": "20.00",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "WITHDRAW",
+			"request": {
+				"url": "http://192.168.17.135:8080/MMM-PiggyBank/WITHDRAW",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}
